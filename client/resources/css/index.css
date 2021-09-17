@@ -1,0 +1,56 @@
+@font-face {
+	font-family: PokemonEmerald;
+	src: url(../fonts/pokemon_emerald_font.ttf);
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	/* font-family: PokemonEmerald; */
+	color: #777;
+}
+.half-screenImage {
+	margin: 0;
+	position: relative;
+	opacity: 0.65;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/gameCovers/connectFourCoverALT.jpg);
+	height: 50%;
+}
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+.caption span.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+html {
+	height: 100%;
+}
+.imageCell {
+	height: auto;
+	max-width: 30%;
+}
+table {
+	width: 100%;
+/* 	padding: 15px; */
+	margin: 15px;
+	border: 2px #000;
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid black;
+}
+img {
+	opacity: 0.75;
+}
